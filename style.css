@@ -20,15 +20,39 @@ section
     padding-top: 2%;
 }
 
-.first-part h1 {
+.h1jj{
+    font-size:70px;
+    border-left: 5px solid red;
+    border-radius: 5px;
+    padding-left:20px;
    
-    font-weight: lighter;
-    font-size: 400%;
-    margin: 0;
-    font-family:'Yeseva One';
-    border-left: 5px solid rgb(201, 26, 26);
-    padding-left:25px
+}
+ .h1jj::after{
+   
+    content:"Mission 2022";
+      display: block;
+      color: orange;
+      top:5px;
+      bottom:5px
   }
+  h1{
+    font-size:70px;
+  
+   
+   
+  }
+.first-part h1::before{
+    content:"";
+    background:rgb(196, 107, 107);
+    margin-top:19px;
+    float: left;
+    height:125px;
+    width:5px;
+    margin-right: 15px;
+    border-radius: 8px;
+
+}
+  
   .extra{
     color: orange;
   }
