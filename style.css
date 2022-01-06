@@ -20,21 +20,7 @@ section
     padding-top: 2%;
 }
 
-.h1jj{
-    font-size:70px;
-    border-left: 5px solid red;
-    border-radius: 5px;
-    padding-left:20px;
-   
-}
- .h1jj::after{
-   
-    content:"Mission 2022";
-      display: block;
-      color: orange;
-      top:5px;
-      bottom:5px
-  }
+
   h1{
     font-size:70px;
   
